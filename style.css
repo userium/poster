@@ -1,0 +1,60 @@
+/* Styling for the poster */
+
+.container {
+	background: #C2BCAA;
+	position: absolute;
+	display: block;
+	width: 520px;
+	margin: 0 auto;
+	border: 7px solid #000;
+}
+
+.bluebox {
+	background-color: transparent;
+	z-index: 1;
+	border: 50px solid #336B9D;
+	border-radius: 60px;
+	-moz-border-radius: 60px;
+    -webkit-border-radius: 60px;
+	border-right: #C2BCAA;
+	border-top-right-radius: 0px;
+	border-bottom-right-radius: 0px;
+	display: inline-block;
+	height: 400px;
+	width: 390px;
+	position: relative;
+	top: 30px;
+	margin: 0 0 30px 10px;
+}
+
+.orangebox {
+	position: absolute;
+	background-color: transparent;
+	z-index: 2;
+	border: 50px solid #E2552D;
+	border-radius: 60px;
+	-moz-border-radius: 60px;
+    -webkit-border-radius: 60px;
+	border-left: #C2BCAA;
+	border-top-left-radius: 0px;
+	border-bottom-left-radius: 0px;
+	display: inline-block;
+	height: 280px;
+	width: 300px;
+	top: 90px;
+	right: 0;
+	margin-right: 10px;
+}
+
+.postertitle {
+	margin-top: 50%;
+}
+
+footer {
+	width: 40%;
+	margin: 0 auto;
+}
+
+address {
+	margin-bottom: 20px;
+}
